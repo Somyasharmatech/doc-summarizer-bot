@@ -1,6 +1,13 @@
 # Web-Based Doc Summarization Bot
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doc-summarizer-bot.streamlit.app/)
+
 A conversational AI bot built with Streamlit that allows users to chat with and summarize web-based documents. It leverages LangChain, Groq (Llama 3), and Ollama for efficient document processing and retrieval.
+
+## 🚀 Live Demo
+**[Click here to use the App](https://doc-summarizer-bot.streamlit.app/)**
+*(Note: If the link doesn't work, check your Streamlit Cloud dashboard for the exact URL)*
+
 
 ## Features
 
