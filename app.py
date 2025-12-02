@@ -76,7 +76,7 @@ if st.session_state.vector_store is not None:
     
     if user_query:
         try:
-            llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-8b-8192")
+            llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
             
             prompt = ChatPromptTemplate.from_template("""
             Answer the following question based only on the provided context:
