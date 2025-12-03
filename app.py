@@ -34,7 +34,7 @@ with st.sidebar:
     
     embedding_provider = st.selectbox(
         "Select Embedding Provider",
-        ("Ollama (Local)", "HuggingFace (Cloud/Local)")
+        ("HuggingFace (Cloud/Local)", "Ollama (Local)")
     )
     
     if embedding_provider == "Ollama (Local)":
